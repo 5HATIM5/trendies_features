@@ -22,6 +22,9 @@ importers:
       '@trendies/db':
         specifier: workspace:*
         version: link:../../packages/db
+      '@vendia/serverless-express':
+        specifier: ^4.12.6
+        version: 4.12.6
       reflect-metadata:
         specifier: ^0.2.2
         version: 0.2.2
@@ -50,6 +53,9 @@ importers:
       '@swc/core':
         specifier: ^1.10.7
         version: 1.11.29
+      '@types/aws-lambda':
+        specifier: ^8.10.149
+        version: 8.10.149
       '@types/express':
         specifier: ^5.0.2
         version: 5.0.2
@@ -411,6 +417,10 @@ packages:
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
+
+  '@codegenie/serverless-express@4.16.0':
+    resolution: {integrity: sha512-TlvAHQysphN3OW6Ziz6AD2DnN9IIy/KkKNImZwMJpwGHHqLATi/9hMg8H8VBRg2L15pGt8ad3R6j6mfvHVWrCg==}
+    engines: {node: '>=18'}
 
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
@@ -2095,6 +2105,9 @@ packages:
   '@tybys/wasm-util@0.9.0':
     resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
 
+  '@types/aws-lambda@8.10.149':
+    resolution: {integrity: sha512-NXSZIhfJjnXqJgtS7IwutqIF/SOy1Wz5Px4gUY1RWITp3AYTyuJS4xaXr/bIJY1v15XMzrJ5soGnPM+7uigZjA==}
+
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
 
@@ -2366,6 +2379,10 @@ packages:
     resolution: {integrity: sha512-friS8NEQfHaDbkThxopGk+LuE5v3iY0StruifjQEt7SLbA46OnfgMO15sOTkbpJkol6RB+1l1TYPXh0sCddpvA==}
     cpu: [x64]
     os: [win32]
+
+  '@vendia/serverless-express@4.12.6':
+    resolution: {integrity: sha512-ePsIPk3VQwgm5nh/JGBtTKQs5ZOF7REjHxC+PKk/CHvhlKQkJuUU365uPOlxuLJhC+BAefDznDRReWxpnKjmYg==}
+    engines: {node: '>=12'}
 
   '@webassemblyjs/ast@1.14.1':
     resolution: {integrity: sha512-nuBEDgQfm1ccRp/8bCQrx1frohyufl4JlbMMZ4P1wpeOfDhF6FQkxZJ1b/e+PLwr6X1Nhw6OLme5usuBWYBvuQ==}
@@ -6010,6 +6027,8 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
+  '@codegenie/serverless-express@4.16.0': {}
+
   '@colors/colors@1.5.0':
     optional: true
 
@@ -8001,6 +8020,8 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
+  '@types/aws-lambda@8.10.149': {}
+
   '@types/babel__core@7.20.5':
     dependencies:
       '@babel/parser': 7.27.2
@@ -8295,6 +8316,10 @@ snapshots:
 
   '@unrs/resolver-binding-win32-x64-msvc@1.7.2':
     optional: true
+
+  '@vendia/serverless-express@4.12.6':
+    dependencies:
+      '@codegenie/serverless-express': 4.16.0
 
   '@webassemblyjs/ast@1.14.1':
     dependencies:
