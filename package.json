@@ -1,0 +1,13 @@
+{
+  "name": "trendies_features",
+  "version": "1.0.0",
+  "description": "Trendies Features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["trendies", "features", "trendies_features"],
+  "author": "Hatim Shabbir",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@trendies/db",
+  "version": "1.0.0",
+  "main": "./prisma/generated/index.js",
+  "types": "./prisma/generated/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./prisma/generated/index.d.ts",
+      "default": "./prisma/generated/index.js"
+    }
+  },
+  "scripts": {
+    "generate": "prisma generate",
+    "migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "prisma": "^5.22.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
