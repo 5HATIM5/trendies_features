@@ -1,4 +1,4 @@
-# 🛍️ Trendies – Simple E-Commerce Checkout Flow
+# 🛍️ Trendies – E-Commerce Checkout Flow
 
 Trendies is a minimal full-stack e-commerce prototype built with **Next.js 15**, **NestJS**, **Prisma**, **PostgreSQL**, and **TailwindCSS**. It allows users to browse products, add items to a cart, and complete a checkout with "cash" or "POS" as payment options.
 
